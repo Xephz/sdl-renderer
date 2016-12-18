@@ -2,3 +2,6 @@
 -textures
 -mouse input
 -glerror in program destructor
+-glerror in VAO creation
+-glerror in mesh destructor
+-inputhandler keys update

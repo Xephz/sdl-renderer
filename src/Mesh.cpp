@@ -27,7 +27,8 @@ Mesh::~Mesh(){
   
 	GLenum glErr = glGetError();
 	if(glErr != GL_NO_ERROR){
-		std::cout << "error deleting buffers " << glErr << "\n";
+        //TODO figure out why this throws 1281
+        //std::cout << "error deleting buffers " << glErr << "\n";
 	}
 }
 
