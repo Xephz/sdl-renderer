@@ -1,0 +1,4 @@
+-load colours from file (may just need typecasting- need to check)
+-textures
+-mouse input
+-glerror in program destructor
